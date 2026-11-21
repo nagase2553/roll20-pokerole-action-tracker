@@ -2,7 +2,7 @@
 
 An extension for Game Masters that counts how many actions each combatant in the Turn Order has taken in the current round, straight from the Roll20 chat. It adds a small floating panel next to the Turn Order tracker, so you can see at a glance who has acted, who has used their Evade or Clash, and who is out of actions.
 
-<!-- TODO: add image -->
+<img width="612" height="843" alt="image" src="https://github.com/user-attachments/assets/0fa29099-d61c-4bc7-b64c-0be25037d816" />
 
 ## Features
 
