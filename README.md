@@ -57,7 +57,7 @@ The extension runs only on the Roll20 game page. It watches the chat for new mes
 
 ## Privacy
 
-Nothing leaves your browser. The extension makes no network requests, has no background script, and only asks for the `storage` permission, which it uses to keep your counts across a page refresh. That data stays on your computer. The only output is the console log described below.
+Nothing leaves your browser. The extension makes no network requests, has no background script, and only asks for the `storage` permission, which it uses to keep your counts across a page refresh. That data stays on your computer. The only output are some logs for debugging purposes.
 
 
 ## Limitations
@@ -66,3 +66,7 @@ Nothing leaves your browser. The extension makes no network requests, has no bac
 - Names in rolls must match the names in the initiative tracker. If two combatants share a name, they collapse into one row, so number them (for example "Eevee 1" and "Eevee 2").
 - Actions without an Accuracy roll are not counted automatically. Use the X buttons for those.
 - If Roll20 changes its page layout, parts of the extension may need updating.
+
+## Disclaimer
+
+This is an unofficial, fan-made project. It is not affiliated with, endorsed by, or sponsored by Roll20 or the creators of Pokérole. All trademarks and game content belong to their respective owners.
