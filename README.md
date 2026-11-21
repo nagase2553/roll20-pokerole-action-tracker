@@ -29,17 +29,17 @@ Everything else is ignored on purpose: damage rolls, ability checks, generic rol
 
 The extension is not on the Chrome Web Store, so you load it manually. It takes about a minute.
 
-1. Download the latest zip from the **Releases** page and unzip it. You should end up with a folder containing `manifest.json`.
-2. Open `chrome://extensions` in Chrome.
-3. Turn on **Developer mode** (top right).
-4. Click **Load unpacked** and select the unzipped folder.
-5. Open (or refresh) your Roll20 game page.
+1. **Download the extension.**
+   1. Go to the [**Releases** page](../../releases) of this repository (also reachable from the **Releases** section in the right-hand sidebar of the main repo page).
+   2. Find the latest release at the top and scroll to its **Assets** list.
+   3. Click the file named `roll20-action-tracker-vX.X.X.zip` to download it. Ignore the two files called "Source code", which are automatic copies of the repository and aren't the ready-to-use version.
+2. **Unzip it.** Right-click the downloaded zip and choose **Extract All** (Windows) or double-click it (Mac). Don't just open the zip and run things from inside it, as Chrome can't load it that way. You should end up with a normal folder containing `manifest.json`. Keep this folder somewhere permanent, because Chrome reads the extension from it every time it starts.
+3. Open `chrome://extensions` in Chrome.
+4. Turn on **Developer mode** (top right).
+5. Click **Load unpacked** and select the unzipped folder, the one that directly contains `manifest.json`.
+6. Open (or refresh) your Roll20 game page.
 
 It works on `https://app.roll20.net/editor/*`. It should also work in other Chromium browsers such as Edge and Brave, but only Chrome has been tested.
-
-**To update:** replace the old files with the new ones, click the reload icon on the extension's card in `chrome://extensions`, then refresh Roll20.
-
-**To use your own icon:** replace `logo.jpg` in the folder with your own image (square works best).
 
 ## How to use it
 
