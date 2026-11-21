@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Roll20 Action Tracker",
+  "version": "1.1.0",
+  "description": "GM-side tracker that counts Accuracy rolls, Evade and Clash per combatant each round.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://app.roll20.net/editor/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["logo.jpg"],
+      "matches": ["https://app.roll20.net/*"]
+    }
+  ]
+}
