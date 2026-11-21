@@ -41,6 +41,10 @@ The extension is not on the Chrome Web Store, so you load it manually. It takes 
 
 It works on `https://app.roll20.net/editor/*`. It should also work in other Chromium browsers such as Edge and Brave, but only Chrome has been tested.
 
+**To update:** replace the old files with the new ones, click the reload icon on the extension's card in `chrome://extensions`, then refresh Roll20.
+
+**To use your own icon:** replace `logo.jpg` in the folder with your own image (square works best).
+
 ## How to use it
 
 1. Open Roll20's Turn Order window and add your combatants as usual.
